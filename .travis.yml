@@ -3,7 +3,7 @@ solution: TestMockApplication.sln
 mono: none
 dotnet: 2.1
 
- notifications:
+notifications:
     slack: omegawave:2tDZBeJPIzYRnsNG2sD2ArH2
 
 install:
