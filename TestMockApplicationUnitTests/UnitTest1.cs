@@ -41,11 +41,5 @@ namespace TestMockApplicationUnitTests
 
             consoleWrapper.DidNotReceiveWithAnyArgs().WriteLine("");
         }
-
-        [TestMethod]
-        public void FailingTest()
-        {
-            Assert.IsTrue(false);
-        }
     }
 }
